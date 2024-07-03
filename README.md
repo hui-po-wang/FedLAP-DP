@@ -9,23 +9,6 @@
 #### [[Paper (PoPETS 2024)]](https://arxiv.org/abs/2302.01068)
 
 ------------------------------------
-python -W ignore main.py -cfg settings-fed/convnet/cifar10-dsc-new-cosine.yaml (v)
-python -W ignore main.py -cfg settings-fed/convnet/mnist-dsc-new.yaml 
-python -W ignore main.py -cfg settings-fed/convnet/fashionmnist-dsc-new.yaml 
-
-python -W ignore main.py -cfg settings-fed/convnet/cifar10-dsc-new-median.yaml
-python -W ignore main.py -cfg settings-fed/convnet/cifar10-dsc-new-max.yaml
-python -W ignore main.py -cfg settings-fed/convnet/cifar10-dsc-new-fixed.yaml
-
-python -W ignore main.py -cfg settings-fed/convnet/cifar10-dsc-new-dp1-6.yaml (v)
-
-python main_baseline.py -cfg settings-fed/convnet/cifar10-baseline-old.yaml
-python -W ignore main_baseline.py -cfg settings-fed/convnet/cifar10-fedprox-dp1.yaml --seed 123
-python -W ignore main_baseline.py -cfg settings-fed/convnet/cifar10-baseline-dp1.yaml --seed 123
-
-python main_baseline.py -cfg settings-fed/ready-baselines/cifar10-baseline.yaml
-python -W ignore main_baseline.py -cfg settings-fed/ready-baselines/cifar10-baseline-dp1.yaml
-------------------------------------
 ## Quick Start
 Follow the instructions below to reproduce the main result of our work quickly.
 
