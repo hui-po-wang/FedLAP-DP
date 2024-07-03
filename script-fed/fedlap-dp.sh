@@ -1,0 +1,1 @@
+python -W ignore main.py -cfg settings-fed/fedlap/cifar10-fedlap-dp1.yaml --download

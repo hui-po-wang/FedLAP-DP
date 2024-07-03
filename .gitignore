@@ -1,0 +1,7 @@
+saves/
+runs/
+__pycache__
+*tar
+*txt
+.DS_Store
+datasets/

@@ -1,0 +1,1 @@
+python main_baseline.py -cfg settings-fed/baselines/cifar10-baseline.yaml --download
