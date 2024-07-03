@@ -2,6 +2,8 @@
 
 ![alt text](assets/teaser.png "Title")
 
+Note: this repo is implemented in a sequentially running manner. We are working on a parallel implementation with the Flower framework.
+
 > **FedLAP-DP: Federated Learning by Sharing Differentially Private Loss Approximations** (PoPETS 2024) \
 > Hui-Po Wang, Dingfan Chen, Raouf Kerkouche, Mario Fritz \
 > A novel federated optimization approach overcoming privacy and non-IID challenges via gradient approximation
